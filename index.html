@@ -22,6 +22,11 @@
         <li><a href="#">Resources</a></li>
         <li><a href="#">Pricing</a></li>
       </ul>
+      <div class="hamburger-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
       <button class="primary-button navbar-button">Sign In</button>
     </nav>
     <canvas id="gradient-canvas"></canvas>
@@ -105,50 +110,48 @@
         </div>
       </div>
       <div class="integrations">
-        <div class="section-container">
-          <div class="two-column">
-            <div class="col-left">
-              <div class="another-subtitle">Designed for engineers</div>
-              <h2>The world's best and most intuitive APIs</h2>
-              <p>
-                We abstract the hard stuff away so your teams can focus on
-                building good technology, instead of spending time and money
-                reinventing the wheel.
-              </p>
-              <button class="primary-button with-icon">
-                Start now <img src="assets/arrow-right-dark.svg" alt="" />
-              </button>
-              <div class="card-container">
-                <div class="card">
-                  <img class="icon" src="assets/tools-icon.png" alt="" />
-                  <h3>Tools for all stacks</h3>
-                  <p class="secondary-text">
-                    We offer front end and back end libraries in some of the
-                    most widely used technologies, old and new.
-                  </p>
-                  <button class="secondary-button with-icon">
-                    See libraries
-                    <img src="assets/arrow-right-blue.svg" alt="" />
-                  </button>
-                </div>
-                <div class="card">
-                  <img class="icon" src="assets/cube-icon.png" alt="" />
-                  <h3>Custom integrations</h3>
-                  <p class="secondary-text">
-                    User integrations for systems like Shopify, WooCommerce,
-                    NetSuite, and more.
-                  </p>
-                  <button class="secondary-button with-icon">
-                    Explore partners
-                    <img src="assets/arrow-right-blue.svg" alt="" />
-                  </button>
-                </div>
+        <div class="section-container two-column">
+          <div class="col-left">
+            <div class="another-subtitle">Designed for engineers</div>
+            <h2>The world's best and most intuitive APIs</h2>
+            <p>
+              We abstract the hard stuff away so your teams can focus on
+              building good technology, instead of spending time and money
+              reinventing the wheel.
+            </p>
+            <button class="primary-button with-icon">
+              Start now <img src="assets/arrow-right-dark.svg" alt="" />
+            </button>
+            <div class="card-container">
+              <div class="card">
+                <img class="icon" src="assets/tools-icon.png" alt="" />
+                <h3>Tools for all stacks</h3>
+                <p class="secondary-text">
+                  We offer front end and back end libraries in some of the most
+                  widely used technologies, old and new.
+                </p>
+                <button class="secondary-button with-icon">
+                  See libraries
+                  <img src="assets/arrow-right-blue.svg" alt="" />
+                </button>
+              </div>
+              <div class="card">
+                <img class="icon" src="assets/cube-icon.png" alt="" />
+                <h3>Custom integrations</h3>
+                <p class="secondary-text">
+                  User integrations for systems like Shopify, WooCommerce,
+                  NetSuite, and more.
+                </p>
+                <button class="secondary-button with-icon">
+                  Explore partners
+                  <img src="assets/arrow-right-blue.svg" alt="" />
+                </button>
               </div>
             </div>
-            <div class="col-right">
-              <img src="assets/api-code.png" alt="" id="api-code" />
-              <img src="assets/terminal-code.png" alt="" id="terminal-code" />
-            </div>
+          </div>
+          <div class="col-right">
+            <img src="assets/api-code.png" alt="" id="api-code" />
+            <img src="assets/terminal-code.png" alt="" id="terminal-code" />
           </div>
         </div>
       </div>
@@ -158,8 +161,8 @@
           <h2>A tech-first approach to finance</h2>
           <div class="card-container">
             <div class="card">
-              <h3>Efficient always</h3>
               <img class="icon" src="assets/cloud-icon.png" alt="" />
+              <h3>Efficient always</h3>
               <p class="secondary-text">
                 We've optimized every level of the finance stack, from
                 integration to prebuilt checkout flows - no detail has been
@@ -167,8 +170,8 @@
               </p>
             </div>
             <div class="card">
-              <h3>Fast-improving</h3>
               <img class="icon" src="assets/cycle-icon.png" alt="" />
+              <h3>Fast-improving</h3>
               <p class="secondary-text">
                 We make constant updates and improvement to help you stay on the
                 cutting edge of your industry, deploying to production around
@@ -176,8 +179,8 @@
               </p>
             </div>
             <div class="card">
-              <h3>Tried and true</h3>
               <img class="icon" src="assets/shield-icon.png" alt="" />
+              <h3>Tried and true</h3>
               <p class="secondary-text">
                 Our systems operate with 100% uptime, with scalability and
                 uptime as a guarantee. Swipe is super duper certified so don't
@@ -185,8 +188,8 @@
               </p>
             </div>
             <div class="card">
-              <h3>Crazy optimized</h3>
               <img class="icon" src="assets/bars-icon.png" alt="" />
+              <h3>Crazy optimized</h3>
               <p class="secondary-text">
                 We use machine learning trained on billions of data points to
                 help optimize all products, from fraud to revenue recovery and
@@ -244,85 +247,80 @@
         </div>
       </div>
       <div class="sessions">
-        <div class="section-container">
-          <div class="two-column">
-            <div class="col-left">
-              <p class="subtitle">Virtual events</p>
-              <h2>Check out Sessions now!</h2>
-              <p>
-                Swipe Sessions is our annual conference - it's now available to
-                watch on demand! Check it out and become an "internet economy"
-                genius, and see how Swipe can transform the way you do business
-                online.
-              </p>
-              <button class="primary-button with-icon">
-                Start now <img src="assets/arrow-right-light.svg" alt="" />
-              </button>
-            </div>
-            <div class="col-right">
-              <div class="sessions-card">
-                <div class="card-top">
-                  <img
-                    id="sessions-logo"
-                    src="assets/swipe-sessions.png"
-                    alt=""
-                  />
-                  <div class="avatars">
-                    <img src="assets/avatar1.png" alt="" />
-                    <img src="assets/avatar2.png" alt="" />
-                  </div>
+        <div class="section-container two-column">
+          <div class="col-left">
+            <p class="subtitle">Virtual events</p>
+            <h2>Check out Sessions now!</h2>
+            <p>
+              Swipe Sessions is our annual conference - it's now available to
+              watch on demand! Check it out and become an "internet economy"
+              genius, and see how Swipe can transform the way you do business
+              online.
+            </p>
+            <button class="primary-button with-icon">
+              Start now <img src="assets/arrow-right-light.svg" alt="" />
+            </button>
+          </div>
+          <div class="col-right">
+            <div class="sessions-card">
+              <div class="card-top">
+                <img
+                  id="sessions-logo"
+                  src="assets/swipe-sessions.png"
+                  alt=""
+                />
+                <div class="avatars">
+                  <img src="assets/avatar1.png" alt="" />
+                  <img src="assets/avatar2.png" alt="" />
                 </div>
-                <div class="card-bottom">
-                  <div class="card-content">
-                    <p class="subtitle">Keynote</p>
-                    <p class="secondary-text">
-                      Everything you need to know about the internet economy
-                    </p>
-                  </div>
+              </div>
+              <div class="card-bottom">
+                <div class="card-content">
+                  <p class="subtitle">Keynote</p>
+                  <p class="secondary-text">
+                    Everything you need to know about the internet economy
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div class="get-started">
-        <div class="section-container">
-          <div class="two-column">
-            <div class="col-left">
-              <h2>What are you waiting for?</h2>
-              <p>
-                Explore <a href="#">Swipe</a> now, or create an account and
-                start accepting payments today! If you need a custom package for
-                your business, let's chat today.
+        <div class="section-container two-column">
+          <div class="col-left">
+            <h2>What are you waiting for?</h2>
+            <p>
+              Explore <a href="#">Swipe</a> now, or create an account and start
+              accepting payments today! If you need a custom package for your
+              business, let's chat today.
+            </p>
+            <button class="primary-button with-icon">
+              Start now <img src="assets/arrow-right-light.svg" alt="" />
+            </button>
+          </div>
+          <div class="col-right">
+            <div class="card">
+              <img class="icon" src="assets/shield-icon.png" alt="" />
+              <h3>Always know what you pay</h3>
+              <p class="secondary-text">
+                Integrated per-transaction pricing with no hidden fees.
               </p>
-              <button class="primary-button with-icon">
-                Start now <img src="assets/arrow-right-light.svg" alt="" />
+              <button class="secondary-button with-icon">
+                Pricing details
+                <img src="assets/arrow-right-purple.svg" alt="" />
               </button>
             </div>
-            <div class="col-right">
-              <div class="card">
-                <img class="icon" src="assets/shield-icon.png" alt="" />
-                <h3>Always know what you pay</h3>
-                <p class="secondary-text">
-                  Integrated per-transaction pricing with no hidden fees.
-                </p>
-                <button class="secondary-button with-icon">
-                  Pricing details
-                  <img src="assets/arrow-right-purple.svg" alt="" />
-                </button>
-              </div>
-              <div class="card">
-                <img class="icon" src="assets/bars-icon.png" alt="" />
-                <h3>Start your integration</h3>
-                <p class="secondary-text">
-                  Get up and running with Stripe in as little as 10 minutes.
-                </p>
-                <button class="secondary-button with-icon">
-                  API reference
-                  <img src="assets/arrow-right-purple.svg" alt="" />
-                </button>
-              </div>
+            <div class="card">
+              <img class="icon" src="assets/bars-icon.png" alt="" />
+              <h3>Start your integration</h3>
+              <p class="secondary-text">
+                Get up and running with Stripe in as little as 10 minutes.
+              </p>
+              <button class="secondary-button with-icon">
+                API reference
+                <img src="assets/arrow-right-purple.svg" alt="" />
+              </button>
             </div>
           </div>
         </div>
